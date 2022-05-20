@@ -1,0 +1,163 @@
+.first{
+    display: flex;
+    position: relative;
+    top:30px;
+    left:300px;
+    font-size: 50px;
+    
+}
+.f1{
+    color: silver;
+}
+.logo{
+    color: rgb(219, 21, 21);
+    position: absolute;
+    left: 64vw;
+    top: 50px;
+    height: 150px;
+    width: 150;
+
+}
+.container{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin:25px;
+    
+}
+.box1{
+    width:180px;
+    height:250px;
+    border:1px solid orangered;
+    border-radius: 10px;
+    padding:20px;
+    box-shadow: 5px 5px 5px gray;
+    margin:20px;
+    text-align: center;
+
+}
+.p1{
+    display: flex;
+    position: relative;
+    bottom:2px;
+    left:30px;
+}
+.box2{
+    width:180px;
+    height:250px;
+    border:1px solid orangered;
+    border-radius: 10px;
+    padding:20px;
+    box-shadow: 5px 5px 5px gray;
+    margin:20px;
+    text-align: center;
+    
+}
+.p2{
+    display: flex;
+    position: relative;
+    bottom:2px;
+    left:30px;
+}
+.box3{
+    width:180px;
+    height:250px;
+    border:1px solid orangered;
+    border-radius: 10px;
+    padding:20px;
+    box-shadow: 5px 5px 5px gray;
+    margin:20px;
+    text-align: center;
+}
+.p3{
+    display: flex;
+    position: relative;
+    bottom:2px;
+    left:30px;
+}
+.c{
+    text-decoration: line-through;
+    color: brown;
+}
+@media(max-width:600px)
+{
+ .container{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin:25px
+ }
+ .first{
+    display: flex;
+    position: relative;
+    top:30px;
+    left:300px;
+    font-size: 50px;
+ }
+ .logo{
+    color: rgb(219, 21, 21);
+    position: absolute;
+    left: 64vw;
+    top: 50px;
+    height: 150px;
+    width: 150;
+ }
+ .box1{
+    width:180px;
+    height:250px;
+    border:1px solid orangered;
+    border-radius: 10px;
+    padding:20px;
+    box-shadow: 5px 5px 5px gray;
+    margin:20px;
+    text-align: center;
+}
+.box2{
+    width:180px;
+    height:250px;
+    border:1px solid orangered;
+    border-radius: 10px;
+    padding:20px;
+    box-shadow: 5px 5px 5px gray;
+    margin:20px;
+    text-align: center;
+}
+.box3{
+    width:180px;
+    height:250px;
+    border:1px solid orangered;
+    border-radius: 10px;
+    padding:20px;
+    box-shadow: 5px 5px 5px gray;
+    margin:20px;
+    text-align: center;
+}
+.f1{
+    color: silver;
+}
+.p1{
+    display: flex;
+    position: relative;
+    bottom:2px;
+    left:30px;
+}
+.p2{
+    display: flex;
+    position: relative;
+    bottom:2px;
+    left:30px
+}
+.p3{
+    display: flex;
+    position: relative;
+    bottom:2px;
+    left:30px;
+}
+.c{
+    text-decoration: line-through;
+    color: brown;
+
+}    
+}
